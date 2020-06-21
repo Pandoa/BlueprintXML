@@ -43,14 +43,14 @@ A class representing an XML node (a tag).
 #### Append Child Node
 * Input Tag `FString` The new child node's tag.
 * Input Content `FString` The new child node's content.
-## Custom Nodes
+# Custom Nodes
 These nodes are asynchronous and perform the heavy operation outside of the game thread.
-### Load XML File Async
+## Load XML File Async
 * Input File Path `FString` The path of the file we want to load.
 * Output XmlFile `XmlFile` The new virtual XML file created.
-### Load XML String Async
+## Load XML String Async
 * Input Xml String `FString` A string containing raw XML code.
 * Output XmlFile `XmlFile` The new virtual XML file created.
-### Save XML File Async
+## Save XML File Async
 * Input File to Save `XmlFile` The XmlFile we want to save to disk.
 * Input Path `FString` The location we want to save this file to.
