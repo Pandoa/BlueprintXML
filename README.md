@@ -18,28 +18,29 @@ A class representing an XML file. It contains a root node used to access the who
 * Output  Root Node `XmlNode` This file's root node.
 ## XmlNode
 A class representing an XML node (a tag). 
-### Find Child Node
+### Methods
+#### Find Child Node
 * Input Tag `FString` The tag we are looking for.
 * Output  Found `boolean` If the wanted child was found.
 * Output  Child Node `XmlNode` The found direct child node or nullptr.
-### Get Children Node
+#### Get Children Node
 * Output  Out Nodes `TArray<XmlNode>` All this node's direct children.
-### Get First Child Node
+#### Get First Child Node
 * Output  First Child `XmlNode` This node's first child.
-### Get Next Node
+#### Get Next Node
 * Output  Next Node `XmlNode` The next node on the same level as this node.
-### Get Attribute
+#### Get Attribute
 * Input In Tag `FString` The attribute we want to get.
 * Output  Attribute `FString` This attribute's value.
-### Get Attributes
+#### Get Attributes
 * Output  Attributes `TMap<FString>` All the attributes of this node.
-### Get Content
+#### Get Content
 * Output  Content `FString` This node's content.
-### Get Tag
+#### Get Tag
 * Output  Tag `FString` This node's tag.
-### Set Content
+#### Set Content
 * Input Content `FString` This node's new content.
-### Append Child Node
+#### Append Child Node
 * Input Tag `FString` The new child node's tag.
 * Input Content `FString` The new child node's content.
 ## Custom Nodes
