@@ -3,7 +3,7 @@ Documentation for the BlueprintXML plugin available on the Unreal Engine Marketp
 # Working Examples
 ## Simple XML Loading from a file
 ![Load XML example](https://github.com/Pandoa/BlueprintXML/blob/master/DocImages/LoadExample.png?raw=true)
-### Simple XML Save to file
+## Simple XML Save to file
 ![Save XML to File example](https://github.com/Pandoa/BlueprintXML/blob/master/DocImages/SaveExample.png?raw=true)
 # Classes
 ## XmlFile
