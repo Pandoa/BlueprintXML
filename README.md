@@ -1,4 +1,4 @@
-# BlueprintXML - Documentation
+# [BlueprintXML](https://www.unrealengine.com/marketplace/en-US/product/blueprintxml) - Documentation
 Documentation for the BlueprintXML plugin available on the Unreal Engine Marketplace.
 # Working Examples
 ## Simple XML Loading from a file
