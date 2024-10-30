@@ -2,9 +2,9 @@
 Documentation for the BlueprintXML plugin available on the Unreal Engine Marketplace.
 # Working Examples
 ## Simple XML Loading from a file
-![Load XML example](https://github.com/Pandoa/BlueprintXML/blob/master/DocImages/LoadExample.png?raw=true)
+![Load XML example](https://github.com/Pandoa/BlueprintXML/blob/master/DocImages/LoadExample.png)
 ## Simple XML Save to file
-![Save XML to File example](https://github.com/Pandoa/BlueprintXML/blob/master/DocImages/SaveExample.png?raw=true)
+![Save XML to File example](https://github.com/Pandoa/BlueprintXML/blob/master/DocImages/SaveExample.png)
 # Classes
 ## XmlFile
 A class representing an XML file. It contains a root node used to access the whole XML tree.
