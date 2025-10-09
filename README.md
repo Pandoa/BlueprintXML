@@ -16,7 +16,7 @@ A class representing an XML file. It contains a root node used to access the who
 #### Get Root Node
 * Output  Is Valid `boolean` If this root node is valid and can be accessed.
 * Output  Root Node `XmlNode` This file's root node.
-## XmlNode
+## XmlNode 
 A class representing an XML node (a tag). 
 ### Methods
 #### Find Child Node
